@@ -11,6 +11,8 @@ class Shoe
     puts "The shoe has been repaired"
   end
   
-  
+  def cobble
+    @condition = "new"
+  end
 
 end
